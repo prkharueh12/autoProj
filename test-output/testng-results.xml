@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10724" started-at="2021-02-04T02:14:22Z" finished-at="2021-02-04T02:14:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10724" started-at="2021-02-04T02:14:22Z" finished-at="2021-02-04T02:14:33Z">
+      <class name="autotTest.task.TestCaseTwo$RegisterEmailEtsy">
+        <test-method status="PASS" signature="beforeMyMethod()[pri:0, instance:autotTest.task.TestCaseTwo$RegisterEmailEtsy@1c3146bc]" name="beforeMyMethod" is-config="true" duration-ms="4177" started-at="2021-02-03T21:14:22Z" finished-at="2021-02-03T21:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMyMethod -->
+        <test-method status="PASS" signature="sendToFriend()[pri:0, instance:autotTest.task.TestCaseTwo$RegisterEmailEtsy@1c3146bc]" name="sendToFriend" duration-ms="6522" started-at="2021-02-03T21:14:26Z" description="Send to Friend" finished-at="2021-02-03T21:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendToFriend -->
+      </class> <!-- autotTest.task.TestCaseTwo$RegisterEmailEtsy -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

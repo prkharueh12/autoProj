@@ -3,12 +3,17 @@
 <suite name="Failed suite [Default suite]" parallel="none">
   <test name="Default test(failed)" parallel="none">
     <classes>
-      <class name="autotTest.task.TestCaseTwo$RegisterEmailEtsy">
+      <class name="autotTest.task.openPractice">
+        <methods>
+          <include name="closeIt"/>
+        </methods>
+      </class> <!-- autotTest.task.openPractice -->
+      <class name="autotTest.task.openPractice$RegisterEmailEtsy">
         <methods>
           <include name="beforeMyMethod"/>
-          <include name="sendToFriend"/>
+          <include name="lookItem"/>
         </methods>
-      </class> <!-- autotTest.task.TestCaseTwo$RegisterEmailEtsy -->
+      </class> <!-- autotTest.task.openPractice$RegisterEmailEtsy -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

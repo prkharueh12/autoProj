@@ -1,0 +1,10 @@
+util\Constants.class
+testBase\Driver.class
+util\ConfigsReader.class
+autotTest\task\openPractice$RegisterEmailEtsy.class
+autotTest\task\TestCaseTwo$RegisterEmailEtsy.class
+autotTest\task\Test1.class
+pages\AutoKeyTwo.class
+pages\praticeAutoKey.class
+autotTest\task\openPractice.class
+autotTest\task\TestCaseTwo.class

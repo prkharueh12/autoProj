@@ -3,6 +3,38 @@
   <groupId>com.autopractice</groupId>
   <artifactId>autotTest</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+ 
+ <build>
+        <!-- Source directory configuration -->
+        <sourceDirectory>src</sourceDirectory>
+        <plugins>
+            <!-- Following plugin executes the testng tests -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.14.1</version>
+                
+                <!-- Caution! suiteXmlFile should name as anynameTest.xml  -->
+                 <configuration>
+				          <suiteXmlFiles>
+				            <suiteXmlFile>TestRun.xml</suiteXmlFile>
+				          </suiteXmlFiles>
+        		</configuration>
+        
+        
+            </plugin>
+            <!-- Compiler plugin configures the java version to be usedfor compiling 
+                the code -->
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8 </target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+ 
   
   <dependencies>
   
@@ -26,7 +58,5 @@
 		</dependency>
 		
 		
- 
-
  </dependencies> 
 </project>

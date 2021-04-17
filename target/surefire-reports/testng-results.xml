@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AutmationTestJenkins" duration-ms="14500" started-at="2021-04-17T03:56:31Z" finished-at="2021-04-17T03:56:46Z">
+    <groups>
+    </groups>
+    <test name="openPractice" duration-ms="14500" started-at="2021-04-17T03:56:31Z" finished-at="2021-04-17T03:56:46Z">
+      <class name="autotTest.task.openPractice">
+        <test-method status="PASS" signature="closeIt()[pri:0, instance:autotTest.task.openPractice@7a560583]" name="closeIt" is-config="true" duration-ms="192" started-at="2021-04-16T23:56:45Z" finished-at="2021-04-16T23:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeIt -->
+      </class> <!-- autotTest.task.openPractice -->
+      <class name="autotTest.task.openPractice$RegisterEmailEtsy">
+        <test-method status="PASS" signature="beforeMyMethod()[pri:0, instance:autotTest.task.openPractice$RegisterEmailEtsy@1d2bd371]" name="beforeMyMethod" is-config="true" duration-ms="4109" started-at="2021-04-16T23:56:31Z" finished-at="2021-04-16T23:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMyMethod -->
+        <test-method status="PASS" signature="lookItem()[pri:0, instance:autotTest.task.openPractice$RegisterEmailEtsy@1d2bd371]" name="lookItem" duration-ms="10176" started-at="2021-04-16T23:56:35Z" description="Search items" finished-at="2021-04-16T23:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lookItem -->
+      </class> <!-- autotTest.task.openPractice$RegisterEmailEtsy -->
+    </test> <!-- openPractice -->
+  </suite> <!-- AutmationTestJenkins -->
+</testng-results>

@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -49,11 +50,12 @@ public class TestCaseTwo {
 			act.moveToElement(autoTwo.sendButt).click().perform();
 		
 			Assert.assertEquals(autoTwo.text.getText(),ConfigsReader.getProperty("actualText"));
+			//System.out.println(autoTwo.text.getText());
 			act.moveToElement(autoTwo.okButt).click().perform();
 		}
 }
 	
-	@AfterMethod (enabled = true)
+	@AfterTest 
 	public  void closeIt () throws InterruptedException {
 		Thread.sleep(1000);
 		Driver.getDriver().close();

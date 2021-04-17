@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="AutmationTestJenkins" duration-ms="14589" started-at="2021-04-17T04:39:00Z" finished-at="2021-04-17T04:39:14Z">
+  <suite name="AutmationTestJenkins" duration-ms="14687" started-at="2021-04-17T15:07:21Z" finished-at="2021-04-17T15:07:36Z">
     <groups>
     </groups>
-    <test name="openPractice" duration-ms="14589" started-at="2021-04-17T04:39:00Z" finished-at="2021-04-17T04:39:14Z">
+    <test name="openPractice" duration-ms="14687" started-at="2021-04-17T15:07:21Z" finished-at="2021-04-17T15:07:36Z">
       <class name="autotTest.task.openPractice">
-        <test-method status="PASS" signature="closeIt()[pri:0, instance:autotTest.task.openPractice@7a560583]" name="closeIt" is-config="true" duration-ms="356" started-at="2021-04-17T00:39:14Z" finished-at="2021-04-17T00:39:14Z">
+        <test-method status="PASS" signature="closeIt()[pri:0, instance:autotTest.task.openPractice@7a560583]" name="closeIt" is-config="true" duration-ms="209" started-at="2021-04-17T11:07:36Z" finished-at="2021-04-17T11:07:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeIt -->
       </class> <!-- autotTest.task.openPractice -->
       <class name="autotTest.task.openPractice$RegisterEmailEtsy">
-        <test-method status="PASS" signature="beforeMyMethod()[pri:0, instance:autotTest.task.openPractice$RegisterEmailEtsy@1d2bd371]" name="beforeMyMethod" is-config="true" duration-ms="4244" started-at="2021-04-17T00:39:00Z" finished-at="2021-04-17T00:39:04Z">
+        <test-method status="PASS" signature="beforeMyMethod()[pri:0, instance:autotTest.task.openPractice$RegisterEmailEtsy@1d2bd371]" name="beforeMyMethod" is-config="true" duration-ms="4524" started-at="2021-04-17T11:07:21Z" finished-at="2021-04-17T11:07:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMyMethod -->
-        <test-method status="PASS" signature="lookItem()[pri:0, instance:autotTest.task.openPractice$RegisterEmailEtsy@1d2bd371]" name="lookItem" duration-ms="9966" started-at="2021-04-17T00:39:04Z" description="Search items" finished-at="2021-04-17T00:39:14Z">
+        <test-method status="PASS" signature="lookItem()[pri:0, instance:autotTest.task.openPractice$RegisterEmailEtsy@1d2bd371]" name="lookItem" duration-ms="9934" started-at="2021-04-17T11:07:26Z" description="Search items" finished-at="2021-04-17T11:07:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lookItem -->
